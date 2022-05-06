@@ -1,5 +1,5 @@
 .container {
-	display: flex;
+	display: none;
 	position: relative;
 }
 
@@ -23,5 +23,5 @@
 	left: 0;
 	width: 100%;
 	z-index: -1;
-	height: attr(props.height, 100vh);
+	height: 100vh;
 }
