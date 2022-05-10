@@ -8,9 +8,13 @@ import Hero from "../components/hero"
 import styled from "styled-components"
 
 const Wrapper = styled.div`
+	background-color: #5da2c79e;
+	font-size: 1.2em;
+	// max-width: 800px;
+	margin: 0 auto;
 	text-align: center;
-	padding-top: 45px;
-	padding-bottom: 40px;
+	line-height: 1.5;
+	padding: 45px 25%;
 `
 
 const Title = styled.h2`
@@ -41,12 +45,14 @@ const IndexPage = () => (
 	</Hero>
 	<Wrapper id="about-us">
 		<h1>About Us</h1>
-		<p>
-			We are a reputable general construction service provider that delivers quality work including
-			framing, drywall, painting, plumbing, and electrical services. With almost 30 years in service
-			we have experience with various <em>Home Remodeling & Renovations</em>. We provide services to
-			all of the <em>Los Angeles County</em>. No job is too big or too small.
-		</p>
+		<div>
+			<p>
+				We are a reputable general construction service provider that delivers quality work including
+				framing, drywall, painting, plumbing, and electrical services. With almost 30 years in service
+				we have experience with various <em>Home Remodeling & Renovations</em>. We provide services to
+				all of the <em>Los Angeles County</em>. No job is too big or too small.
+			</p>
+		</div>
 	</Wrapper>
 	
   </Layout>
